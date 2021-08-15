@@ -1,0 +1,54 @@
+:root {
+    --primary-color: rgb(2, 56, 40);
+    --secondary-color: rgb(93, 146, 43);
+    --text-color: rgb(184, 240, 193);
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: rgb(218, 247, 152);
+}
+
+.content {
+    text-align: center;
+}
+
+.color-text {
+    color: var(--secondary-color)
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--text-color);
+}
+
+#birthdate {
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color);
+    padding: 0.5rem;
+}
+
+#button {
+
+    margin: 2rem;
+    background-color: var(--secondary-color);
+    padding: 0.6rem;
+    border: 2px;
+    border-radius: 0.5rem;
+}
+
+
+.hide {
+    display: none;
+}
+ 
+#calculating-gif{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
+    width: auto;
+} 
